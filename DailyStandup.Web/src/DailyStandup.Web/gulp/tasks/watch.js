@@ -4,7 +4,7 @@
 
 gulp.task('watch-sass', function(){
     var watchFiles = [paths.source.sass + '**/*.scss'];
-    gulp.watch(watchFiles, ['preProcessStylesheetsWithSass']);
+    gulp.watch(watchFiles, ['precompileSass']);
 });
 
 gulp.task('watch-react', function () {

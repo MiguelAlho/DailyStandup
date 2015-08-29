@@ -1,13 +1,27 @@
 html {
-  height: 100%; }
+  height: 100%;
+  overflow-y: hidden; }
 
 body {
-  background-color: #eee;
-  min-height: 100%;
   height: 100%; }
-  body .contentArea {
+  body .appWrapper {
     width: 100%;
     height: 100%; }
-    body .contentArea .lateralPanel {
-      background-color: #bbb;
+  body .contentArea {
+    width: 100%;
+    height: calc(100% - 64px); }
+    body .contentArea .leftPanel {
+      background-color: #005e8e;
+      height: 100%;
+      overflow-y: scroll; }
+    body .contentArea .centerPanel {
+      background-color: #00a9ff;
       height: 100%; }
+    body .contentArea .rightPanel {
+      background-color: #ffe200;
+      height: 100%;
+      overflow-y: scroll; }
+    body .contentArea select {
+      display: block; }
+    body .contentArea .replies {
+      margin-left: 50px; }

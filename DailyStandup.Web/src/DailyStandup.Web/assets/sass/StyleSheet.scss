@@ -1,17 +1,37 @@
-﻿html{height:100%;}
+﻿html { height:100%; overflow-y:hidden;}
 
 body {
-    background-color:#eee;
-    min-height:100%;
     height:100%;
+    
+    .appWrapper {width:100%; height:100%;}
 
     .contentArea{
         width:100%;
-        height:100%;
-
-        .lateralPanel{
-            background-color:#bbb;
+        height:calc(100% - 64px);
+        
+        .leftPanel{
+            background-color:#005e8e;
             height:100%;
+            overflow-y:scroll;               
+        }
+
+        .centerPanel{
+            background-color:#00a9ff;
+            height:100%;
+        }
+
+        .rightPanel{
+            background-color:#ffe200;
+            height:100%;
+            overflow-y:scroll;            
+        }
+
+        select{display:block;}
+
+        
+        
+        .replies{
+            margin-left:50px;
         }
 
     }
