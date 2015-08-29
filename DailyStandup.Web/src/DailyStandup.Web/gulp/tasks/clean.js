@@ -5,7 +5,7 @@
 gulp.task('cleanEverything', function (cb) {
     del([
       paths.destination.images,
-      paths.destination.lib,
+      //paths.destination.lib,  //bower is installing direct to lib
       paths.destination.css,
       paths.destination.app
     ], cb);

@@ -7,6 +7,7 @@ gulp.task('fullBuild', function() {
             'cleanEverything'],
         ['copyDependencies'], 
         ['copyImageAssets',
-            'preProcessStylesheetsWithSass',
+            'copyHtml',
+            'precompileSass',
             'jsxTransform'
     ])});

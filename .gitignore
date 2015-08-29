@@ -196,4 +196,4 @@ FakesAssemblies/
 *.opt
 
 #web project specifics
-wwwroot/*
+wwwroot/**/*.*

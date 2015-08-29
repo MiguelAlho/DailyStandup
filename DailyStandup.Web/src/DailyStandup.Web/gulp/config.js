@@ -13,6 +13,7 @@ module.exports = {
             react: assets + "js/"
         },
         destination: {
+            root: "./" + projectFile.webroot,
             images: "./" + projectFile.webroot + "/images/",
             lib: "./" + projectFile.webroot + "/lib/",
             css: "./" + projectFile.webroot + "/css/",
