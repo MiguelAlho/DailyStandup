@@ -1,6 +1,9 @@
 # DailyStandup
 App to help manage async standups; Playground for techniques and technologies
 
+[![Build status](https://ci.appveyor.com/api/projects/status/ok0vioog85k2xa94/branch/master?svg=true)](https://ci.appveyor.com/project/MiguelAlho/dailystandup/branch/master)
+[![Build Status](https://travis-ci.org/MiguelAlho/DailyStandup.svg)](https://travis-ci.org/MiguelAlho/DailyStandup)
+
 ---
 
 ## Motivation
