@@ -10,14 +10,15 @@ body {
         height:calc(100% - 64px);
         
         .leftPanel{
-            background-color:#005e8e;
+            background-color:#00ff21;
             height:100%;
-            overflow-y:scroll;               
+                        
         }
 
         .centerPanel{
             background-color:#00a9ff;
             height:100%;
+            overflow-y:scroll;
         }
 
         .rightPanel{

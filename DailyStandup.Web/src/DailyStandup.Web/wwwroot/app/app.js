@@ -12,21 +12,21 @@ var App = React.createClass({displayName: "App",
                         React.createElement("option", null, "Team B")
                     ), 
                     React.createElement("input", {type: "date", className: "datepicker"}), 
-                    React.createElement("ul", null, 
-                        React.createElement("li", null, 
-                            React.createElement("img", null), 
+                    React.createElement("ul", {className: "collection"}, 
+                        React.createElement("li", {className: "collection-item avatar"}, 
+                            React.createElement("i", {className: "material-icons circle"}, "account_circle"), 
                             React.createElement("span", null, "Miguel Alho"), 
-                            React.createElement("span", null, "status")
+                            React.createElement("span", {className: "secondary-content"}, "status")
                         ), 
-                        React.createElement("li", null, 
-                            React.createElement("img", null), 
+                        React.createElement("li", {className: "collection-item avatar"}, 
+                            React.createElement("i", {className: "material-icons circle"}, "account_circle"), 
                             React.createElement("span", null, "User2 test"), 
-                            React.createElement("span", null, "status")
+                            React.createElement("span", {className: "secondary-content"}, "status")
                         ), 
-                        React.createElement("li", null, 
-                            React.createElement("img", null), 
+                        React.createElement("li", {className: "collection-item avatar"}, 
+                            React.createElement("i", {className: "material-icons circle"}, "account_circle"), 
                             React.createElement("span", null, "User3 test"), 
-                            React.createElement("span", null, "status")
+                            React.createElement("span", {className: "secondary-content"}, "status")
                         )
 
                     )
@@ -39,7 +39,15 @@ var App = React.createClass({displayName: "App",
                           React.createElement("div", {className: "card"}, 
                             React.createElement("div", {className: "card-content "}, 
                               React.createElement("label", null, "Entry"), 
-                              React.createElement("textarea", null)
+                              React.createElement("textarea", {rows: "4"}, 
+                                  "Hello my friends. I just finished the component #integration into the service and" + ' ' +
+                                  "will start testing . Might allocate the rest of the day for that." + ' ' +
+
+                                  "*etste this" + ' ' +
+                                  "*test that" + ' ' +
+                                  "===hello!"
+
+                              )
                             ), 
                             React.createElement("div", {className: "card-action"}, 
                                 React.createElement("button", {value: "submit"}, "Ok"), 
